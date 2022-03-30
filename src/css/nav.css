@@ -1,4 +1,23 @@
 
+header{
+  background-color:#1f1e1f;
+  height:150px;
+  width:auto;
+  border-bottom: 3px solid;
+  color:#fff;
+  /*border-image: linear-gradient(to right, darkorchid,#f242f5) 1;*/
+  
+  }
+  
+  header h1{
+    font-family: 'League Gothic', sans-serif;
+    font-size:40px;
+    position:absolute;
+    padding:10px;
+    top:65px;
+  }
+  
+  
 nav{
     position:absolute;
     top:80px;
