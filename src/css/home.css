@@ -1,0 +1,302 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=League+Gothic&display=swap');
+</style>
+
+
+img,video{
+  width:auto;
+  height:auto;
+  max-width:100%;
+}
+
+#span{
+font-size: 72px;
+  margin:20px;
+  padding:10px;
+font-family: 'Josefin Sans', sans-serif;
+/*background: -webkit-linear-gradient(#f242f5 ,#AA076B);*/
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  position: relative;
+  animation: text 2s 1;
+  background-image: url(https://media1.giphy.com/media/xT0xepIsg7kK2ZZO0g/giphy.gif);
+}
+
+#span2{
+  font-size: 62px;
+  margin:20px;
+  padding:10px;
+font-family: 'Josefin Sans', sans-serif;
+}
+.herotext{
+  max-width:100%;
+  color:#fff;
+   left: 50%;
+    top: 20%;
+   /* transform: translate(-50%,-50%); /*隐藏作用：如果没有用transform方式进行居中显示，则width：100%会向右侧延申，左侧为空*/
+    width: 100%;
+}
+@keyframes text {
+    0%{
+        color: #000;
+        margin-bottom: -40px;
+    }
+
+    20%{
+        letter-spacing: 20px;
+        margin-bottom: -40px;
+    }
+
+    85%{
+        letter-spacing: 10px;
+        margin-bottom: -40px;
+    }
+}
+
+header{
+background-color:#1f1e1f;
+height:150px;
+width:auto;
+border-bottom: 3px solid;
+color:#fff;
+/*border-image: linear-gradient(to right, darkorchid,#f242f5) 1;*/
+
+}
+
+header h1{
+  font-family: 'League Gothic', sans-serif;
+  font-size:40px;
+  position:absolute;
+  padding:10px;
+  top:65px;
+}
+
+
+
+nav{
+  position:absolute;
+  top:80px;
+  right:35px;
+  
+}
+nav li{
+display:inline-block;
+margin:20px;
+font-size:20px;
+color:#fff;
+
+}
+nav a:hover{
+  color:#aa64e3;
+}
+
+
+nav li:hover{
+  color:#aa64e3;
+}
+
+
+footer{
+  background-color:#1f1e1f;
+  padding:20px;
+  
+}
+
+footer li{
+  display:inline-block;
+  position:relative;
+  
+}
+
+nav ul{
+ list-style-type:none;
+  
+}
+nav a{
+  /*display:inline-block;/*一块一块的让导航看起来 it makes navigation look like block*/
+  text-decoration:none;
+  color:#fff;}
+
+/* drop menue star here*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* hide the drop content*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:60px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 20px 16px;
+    
+    font-size:16px;
+    text-decoration: none;
+    display: block;
+}
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {
+  background-color: #ede5ff}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* css for drop menue end here*/
+
+.hero{
+
+  margin:20px;
+  max-width:100%;
+  /*display:grid;*/
+ 
+  /*justify-content: center;*/
+  color:#fff;
+  
+}
+
+
+.home{
+  font-family: 'League Gothic', sans-serif;
+  font-size:30px;
+  background-color:#1f1e1f;
+  width:auto;
+  
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding:20px;
+  place-items: center;
+}
+
+footer{
+  background-color:#1f1e1f;
+  color:#fff;
+}
+
+main{
+  background-color:#1f1e1f;
+}
+
+.homeproject{
+
+ display:grid;
+ grid-template-columns: repeat(2, 1fr);
+ /* justify-content: center;*/
+
+ margin:auto;
+ padding: 40px;
+ max-width:1200px;
+
+
+}
+
+
+
+.card{
+  border: 1px solid black;
+  margin:10px;
+  background-color:#dedede;
+  justify-content: center;
+	align-items: center;
+  width:550px;
+  }
+
+.card_text{
+  font-size:14px;
+  margin:20px;
+  color:#fff;
+}
+
+
+button{
+  background-color: #ff94c8;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
+.home_contact{
+  display:grid;
+  
+  padding:60px;
+   }
+
+@media screen and (max-width: 834px){
+
+  
+
+header h1{
+  
+  position:absolute;
+  padding:10px;
+  top:5px;
+}
+img{
+  max-width:100%;
+}
+.home{
+  display:block;
+  justify-content: center;
+}
+
+body{
+  max-width:100%
+}
+
+.homeproject {
+  max-width: 100%;
+   padding: 20px;
+   display: flex;
+   align-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: center;
+
+}
+
+  .uiux {
+  max-width: 100%;
+  
+   display: flex;
+   align-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: center;
+
+}
+.homeproject img{
+max-width:100%;
+}
+
+  
+  
+
+      .card{
+    
+     max-width:100%}
+
+  .pjcard{
+    max-width:100%
+  }
+div{
+ place-items: center;
+}
+}
+
