@@ -143,3 +143,394 @@ html {
   ================================================ */
   /* Add your CSS for the site here */
 
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=League+Gothic&display=swap');
+  </style>
+  
+  img,video{
+    width:100%;
+    height:100%;
+    max-width:100%;
+  }
+  
+  header{
+  background-color:#1f1e1f;
+  height:150px;
+  width:auto;
+  border-bottom: 3px solid;
+  color:#fff;
+  /*border-image: linear-gradient(to right, darkorchid,#f242f5) 1;*/
+  
+  }
+  header h1{
+    font-family: 'League Gothic', sans-serif;
+    font-size:40px;
+    position:absolute;
+    padding:10px;
+    top:65px;
+  }
+  
+  nav a{
+    /*display:inline-block;/*一块一块的让导航看起来 it makes navigation look like block*/
+    text-decoration:none;
+    color:#fff;}
+  nav{
+    position:absolute;
+    top:80px;
+    right:35px;
+    
+  }
+  nav li{
+  display:inline-block;
+  margin:20px;
+  font-size:20px;
+  color:#fff;
+  
+  }
+  nav a:hover{
+    color:#aa64e3;
+  }
+  nav li:hover{
+    color:#aa64e3;
+  }
+  
+  
+  footer{
+    background-color:#555;
+    padding:20px;
+    
+  }
+  
+  footer li{
+    display:inline-block;
+    position:relative;
+    
+  }
+  
+  nav ul{
+   list-style-type:none;
+    
+  }
+  
+  
+  /* drop menue star here*/
+  .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+  
+  /* hide the drop content*/
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      top:60px;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropdown-content a {
+      color: black;
+      padding: 20px 16px;
+      
+      font-size:16px;
+      text-decoration: none;
+      display: block;
+  }
+  /* 鼠标移上去后修改下拉菜单链接颜色 */
+  .dropdown-content a:hover {
+    background-color: #ffee80}
+  
+  /* 在鼠标移上去后显示下拉菜单 */
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+  /* css for drop menue end here*/
+  
+  .hero{
+   
+    max-width:100%;
+    /*display:grid;*/
+   
+    /*justify-content: center;*/
+    color:#fff;
+    
+  }
+  .herotext{
+    max-width:100%;
+    color:#fff;
+  }
+  .home{
+    background-color:#424242;
+    width:auto;
+    
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:50px;
+    place-items: center;
+  }
+  
+  main{
+    background-color:#1f1e1f;
+  }
+  
+  footer{
+    background-color:#1f1e1f;
+    color:#fff;
+  }
+  .homeproject{
+  
+   display:grid;
+   grid-template-columns: repeat(2, 1fr);
+   
+   /* justify-content: center;*/
+   
+   padding: 40px;
+   max-width:1200px;
+  
+  
+  }
+  
+  
+  
+  .card{
+    border: 1px solid black;
+    margin:10px;
+    background-color:#f2f2f2;
+    justify-content: center;
+    align-items: center;
+    width:550px;
+    }
+  
+  .card_text{
+    font-size:15px;
+    margin:20px;
+    padding:5px;
+    color:#5c5c5c;
+     line-height:10px;
+  }
+  
+  .card_text:hover{
+    font-size:21px;
+    color:#8b74fb;
+    transition: 0.2s;
+  }
+  .uiux a{
+  font-size:18px;
+  color:#8b74fb;
+  text-decoration:none;
+    
+  }
+  .uiux a:hover{
+  color:#634fc4;
+  text-decoration:underline;
+    
+  }
+  
+  .container{
+  color:#fff;
+   max-width:1200px;
+    
+    padding:40px;
+    display:grid;
+    /*grid-template-columns:repeat(3, 1fr);*/
+    padding:40px;
+    margin:auto;
+  }
+  /* project card css*/
+  .pjcard img{
+   border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+    max-width:100%;
+    max-height:100%;
+  }
+  .pjcard{
+    
+    border: 1px solid black;
+    border-radius: 25px;
+    margin:40px;
+    max-width:80%;
+    max-height:100%;
+    background-color:#f5f5f5;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pjcard img:hover { 
+    
+      opacity: 0.6;
+     top:-1
+     
+  }
+  
+  
+  
+  .pjcard_text{
+    font-size:14px;
+    margin:0px;
+    color:#fff;
+  }
+  
+  .pjcard:hover{
+   
+    background-color:#ffe5ff;
+    
+  }
+  
+  /*pjcard css end */
+  /* animation*/
+  
+  .about_container{
+    color:#fff;
+    max-width:1200px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:40px;
+    margin:auto;
+  }
+  
+  .about_container img{
+    padding:20px;
+  }
+  .intro{
+    width:70%;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .uiux{
+    max-width:100%;
+    display: grid;
+    
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    place-items: center;
+  }
+  
+  button{
+    background-color: #ff94c8;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+  .contact_container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    /*display: flex;*/
+    flex-direction: column;
+    place-items:center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+  }
+  .cardforcontact {
+    justify-content: center;
+    border-radius: 25px;
+    text-align:center;
+    width:300px;
+    margin:40px;
+    padding:40px;
+    align-items: center;
+    background-color:#ffffff;
+      
+  }
+  .cardforcontact:hover {
+    background-color:#ff94c8;
+    
+  }
+  .p25{
+    padding:25px;
+    margin:20px;
+  }
+  
+  
+  
+  @media screen and (max-width: 834px){
+  
+  header h1{
+    
+    position:absolute;
+    padding:10px;
+    top:5px;
+  }
+    
+  img{
+    max-width:100%;
+  }
+  .home{
+    display:block;
+    justify-content: center;
+  }
+  
+  body{
+    max-width:100%
+   
+  }
+  
+  .homeproject {
+    max-width: 100%;
+     padding: 20px;
+     display: flex;
+     align-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     align-items: center;
+  
+  }
+  
+    .uiux {
+    max-width: 100%;
+    
+     display: flex;
+     align-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     align-items: center;
+  
+  }
+  .homeproject img{
+  max-width:100%;
+  }
+  
+    
+    
+  
+    .card{
+      
+       max-width:100%}
+  
+    .pjcard{
+      max-width:100%
+    }
+  div{
+   place-items: center;
+  }
+  
+  .about_container{
+      display:block;
+      
+    }
+  .contact_container{
+    display:block;
+  }
+  .cardforcontact{
+   max-width:100%;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+    }
+  }
+  
+  
