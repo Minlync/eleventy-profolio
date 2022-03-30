@@ -9,7 +9,7 @@ tags: navItem
         <a href="#"></a>
        <img src="/images/thedealhunter.jpg" alt="projrct1">
        <div class="card_text">
-         <h3> <a href="pj_thedealhunter.html"> The DealHunter APP</a></h3>
+         <h3> <a href="pj_thedealhunter.html"> The DealHunter APP</a></h3> 
         <p>Decermber, 2021 </p>
        <p>NewYork, NY<p>
          </div>
