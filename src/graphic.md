@@ -16,7 +16,7 @@ tags: ['navItem','work']
      <div class="pjcard">
        <img src="/images/flower.jpg" alt="flower">
        <div class="card_text">
-       <h3><a href="pj_flower.html">Garden Night</a></h3>
+       <h3><a href="/pj_flower">Garden Night</a></h3>
        <p>August, 2021,2021 </p>
        <p>NewYork,NY</p>
        </div>

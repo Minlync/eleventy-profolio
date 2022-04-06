@@ -38,6 +38,16 @@ siteName: Minlyn.c
   {{ content | safe }}
 
   <footer class="site-footer">
+   <div class="posts">
+     <h3> all work</h3>
+     <ul>
+     {% for page in collections.work %}
+     <li>
+     <a href="{{ page.url }}"> {{ page.data.title }}</a>
+     </li>
+     {% endfor %}
+      </ul>
+   </div>
     <div>
       <p>&copy; {{ pkg.author }}</p>
       <!-- You can change all of this footer content. -->
