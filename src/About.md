@@ -24,24 +24,15 @@ tags: ['navItem','work']
            <img src="https://place-hold.it/600x500.jpg" alt="banner">
           <img src="" alt="">
         </div>
-      
-
-        <!-- break into skill secton-->
-
-        
-          <!-- freelance exprience-->
-          
-        
+      <!-- break into skill secton-->
+      <!-- freelance exprience-->
           <div class="freelance">
             <h2>Freelance Experience 2015 - Current</h2>
-            
             <p>Mercure Kitchen (New Jersey, US)  --- date</p>
             <p>LaoFangZi Bamboo Industry (Fujian,China)</p>
             <p>Phoenix And Dragon Embroidering Company (Beijing,China) --- date</p>
             <p>Dancing Juvenile Movie Poster Design(Beijing,China) --- date</p>
             <p>Beijing Dance Adcademy(Beijing,China) --- 2016</p>
             <p>Peach Blossom Tavern( Fujian,China) --- date</p>
-            
-          
-        </div>
+            </div>
       </section>
