@@ -1,5 +1,5 @@
 ---
-title: uiux
+title: Contact
 layout: uiux.njk
 tags: navItem
 ---
@@ -19,5 +19,4 @@ tags: navItem
                   <p>Follow My Behance</p>
         </div>
       </div>
-           
 </main>

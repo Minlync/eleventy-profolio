@@ -247,7 +247,7 @@ border-top-right-radius: 25px;
   padding:20px;
 }
 .intro{
-  width:70%;
+  width:100%;
   padding:20px;
   justify-content: center;
 	align-items: center;
@@ -386,4 +386,3 @@ align-content: center;
 justify-content: center;
   }
 }
-
