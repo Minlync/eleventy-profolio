@@ -1,7 +1,7 @@
 ---
 title: uiux
 layout: uiux.njk
-tags: navItem
+tags: [‘navItem’,'work']
 ---
 <main>
     <section class="container">
