@@ -1,10 +1,10 @@
 ---
 title: uiux
 layout: uiux.njk
-tags: ['navItem','work']
+tags: navItem
 ---
-
-<section class="about_container">
+<main class="about_main">
+ <section class="about_container">
      <div class="intro ">
           <h2>
             About Me</h2>
@@ -35,4 +35,5 @@ tags: ['navItem','work']
             <p>Beijing Dance Adcademy(Beijing,China) --- 2016</p>
             <p>Peach Blossom Tavern( Fujian,China) --- date</p>
             </div>
-      </section>
+       </section>
+</main>

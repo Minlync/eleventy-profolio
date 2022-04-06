@@ -1,6 +1,6 @@
 ---
 title: Contact
-layout: uiux.njk
+layout: base.njk
 tags: navItem
 ---
 <main class="contact_container">
