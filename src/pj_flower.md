@@ -1,7 +1,7 @@
 ---
-title: Contact
+title: Flower
 layout: base.njk
-tags: navItem
+tags: work
 ---
 <main>
     <section class="container">

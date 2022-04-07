@@ -7,7 +7,7 @@ tags: navItem
       
 <div class="herotext">
             <h1 id="span">Design is The New Black.</h1>
-            <h1 id="span2"> I speak in visual.</h1>
+            <h1 id="span2">UI/UX Designer.</h1>
           </div>
        <div class="hero">
           <!--<h1>
@@ -19,7 +19,7 @@ tags: navItem
 
 <section class="home_contact">
 
- <form method="get" action="contact.html">
+ <form method="get" action="/contact">
     <button type="submit">Contact Me</button>
  </form>
         
