@@ -1,7 +1,7 @@
 ---
 title: uiux
 layout: uiux.njk
-tags: ['navItem','work']
+tags: navItem
 ---
 <main class="uiux">
      <div class="pjcard">
@@ -32,7 +32,7 @@ tags: ['navItem','work']
      <div class="pjcard">
        <img src="/images/movie.jpg" alt="movieproject">
        <div class="card_text">
-       <h3>MovieApp UI Design </h3>
+       <h3><a href="/pj_movie">MovieApp UI Design </h3>
        <p>Date </p>
        <p>location</p>
        </div>

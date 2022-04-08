@@ -1,7 +1,7 @@
 ---
 title: pj_thedealhunter
 layout: uiux.njk
-tags: [‘navItem’,'work']
+tags: work
 ---
 <main>
     <section class="container">
