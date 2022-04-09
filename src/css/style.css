@@ -125,6 +125,13 @@ nav ul{
   place-items: center;
 }
 
+.home_feature{
+  padding:50px;
+  place-items: center;
+  background-color:#1f1e1f;
+  color:#fff;
+}
+
 main{
   background-color:#1f1e1f;
 }

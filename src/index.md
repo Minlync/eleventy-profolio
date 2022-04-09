@@ -21,6 +21,33 @@ tags: navItem
 
  <form method="get" action="/contact">
     <button type="submit">Contact Me</button>
+    
  </form>
         
  </section>
+
+
+<section class="home_feature">
+ <h2>UIUX Projects</h2>
+   <div class="uiux">
+     <div class="pjcard">
+        <div class="card_img"><a href="/pj_thedealhunter"><img src="/images/thedealhunter.jpg"
+              alt="projrct3"></a></div>
+        <div class="card_text">
+          <h3><a href="
+          /pj_thedealhunter">The Deal Hunter</a></h3>
+          <p>The Deal Hunter UI/UX Case Study</p>
+        </div>
+      </div>
+      <div class="pjcard">
+        <div class="card_img"><a href="/pj_thedealhunter"><img src="/images/craiglist.jpg"
+              alt="projrct3"></a></div>
+        <div class="card_text">
+          <h3><a href="responsive">Responsive Web Site</a></h3>
+          <p>Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam
+            magni. Velit.
+          <p>
+        </div>
+      </div>
+      </div>
+</section>
