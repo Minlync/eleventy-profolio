@@ -1,7 +1,11 @@
 ---
 title: Garden Night
 layout: base.njk
-tags: work
+tags: ['work','design']
+postImg: "flower.jpg"
+postImgAlt: "The Garden Night"
+Time: "April, 2018"
+Location: "New York, NY"
 ---
 <main>
     <section class="container">

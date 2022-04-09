@@ -2,9 +2,10 @@
 title: Movie Platfrom UI Design
 layout: base.njk
 tags: work
-postImg: "photo.jpg"
-postImgAlt: "alt text"
-description: 
+postImg: "movie.jpg"
+postImgAlt: "MovieApp UI Design"
+Time: "April, 2018"
+Location: "New York, NY"
 ---
 <main>
  <div class="container">

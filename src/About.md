@@ -2,8 +2,10 @@
 title: uiux
 layout: uiux.njk
 tags: navItem
+postImg: "Aboutimg.png"
+postImgAlt: "About Me"
 ---
-<main class="about_main">
+<main class="">
  <section class="about_container">
      <div class="intro ">
           <h2>
@@ -21,9 +23,9 @@ tags: navItem
            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/850px-Sketch_Logo.svg.png"width="65px" height="65px">
      </div>
       <div class="about_img">
-           <img src="https://place-hold.it/600x500.jpg" alt="banner">
-          <img src="" alt="">
-        </div>
+            <img src="/images/Aboutimg.png" width=600px height=450px alt="">
+            <img src="" alt="">
+           </div>
       <!-- break into skill secton-->
       <!-- freelance exprience-->
           <div class="freelance">

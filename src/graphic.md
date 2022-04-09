@@ -10,7 +10,7 @@ tags: navItem
        <div class="card_text">
          <h3><a href="/pj_paradox"> Paradox Logo</a></h3>
          <p>Decermber, 2021 </p>
-         <p>NewYork, NY<p>
+         <p>New York, NY<p>
          </div>
      </div>
      <div class="pjcard">
@@ -18,7 +18,7 @@ tags: navItem
        <div class="card_text">
        <h3><a href="/pj_flower">Garden Night</a></h3>
        <p>August, 2021,2021 </p>
-       <p>NewYork,NY</p>
+       <p>New York,NY</p>
        </div>
      </div>
      <div class="pjcard">
@@ -33,8 +33,8 @@ tags: navItem
        <img src="/images/movie.jpg" alt="movieproject">
        <div class="card_text">
        <h3><a href="/pj_movie">MovieApp UI Design </h3>
-       <p>Date </p>
-       <p>location</p>
+       <p>November,2020 </p>
+       <p>New York, NY</p>
        </div>
      </div>
      

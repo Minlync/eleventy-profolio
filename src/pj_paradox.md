@@ -1,7 +1,11 @@
 ---
 title: Paradox Logo Design
 layout: uiux.njk
-tags: work
+tags: ['work','design']
+postImg: "paradox.jpg"
+postImgAlt: "Paradox LOGO"
+Time: "Decermber, 2021"
+Location: "New York, NY"
 ---
  
  <main>

@@ -1,7 +1,11 @@
 ---
 title: Esunmeet Package Design
 layout: uiux.njk
-tags: work
+tags: ['work','design']
+postImg: "esunmeet.jpg"
+postImgAlt: "Esunmeet Package Design"
+Time: "April, 2018"
+Location: "Fujian,China"
 ---
 <main>
     <section class="container">

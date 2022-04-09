@@ -1,7 +1,11 @@
 ---
 title: The Deal Hunter UI/UX Case Study
 layout: uiux.njk
-tags: work
+tags: ['work','design']
+postImg: "thedealhunter.jpg"
+postImgAlt: "Thedealhunter"
+Time: "Decermber, 2021"
+Location: "New York, NY"
 ---
 <main>
     <section class="container">
