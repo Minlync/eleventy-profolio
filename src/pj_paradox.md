@@ -1,5 +1,5 @@
 ---
-title: pj_thedealhunter
+title: Paradox Logo Design
 layout: uiux.njk
 tags: work
 ---

@@ -1,7 +1,7 @@
 ---
-title: uiux
+title: Esunmeet Package Design
 layout: uiux.njk
-tags: [‘navItem’,'work']
+tags: work
 ---
 <main>
     <section class="container">

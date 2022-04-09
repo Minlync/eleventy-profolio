@@ -1,5 +1,5 @@
 ---
-title: pj_thedealhunter
+title: The Deal Hunter UI/UX Case Study
 layout: uiux.njk
 tags: work
 ---

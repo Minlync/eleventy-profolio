@@ -177,7 +177,7 @@ nav a{
 footer{
   background-color:#1f1e1f;
   color:#fff;
-}
+ }
 
 main{
   background-color:#1f1e1f;
@@ -196,6 +196,20 @@ main{
 
 }
 
+.footer_contact{
+ padding: 20px;
+ 
+ }
+ .footer_contact li {
+   
+   /*top:20px;*/
+   padding-right: 40px;
+   color:#fff;
+   }
+
+.footer_contact li:hover {
+  color: #ff94c8;
+}
 
 
 .card{

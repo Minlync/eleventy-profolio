@@ -131,6 +131,16 @@ nav ul{
   background-color:#1f1e1f;
   color:#fff;
 }
+.featurecard{
+  /*border: 1px solid black;*/
+  border-radius: 25px;
+  margin:10px;
+
+}
+.featurecard img{
+ border-radius: 25px;
+ width:80%;
+}
 
 main{
   background-color:#1f1e1f;
