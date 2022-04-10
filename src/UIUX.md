@@ -17,7 +17,7 @@ tags: navItem
      <div class="pjcard">
        <img src="/images/craiglist.jpg" alt="projrct2">
        <div class="card_text">
-       <h3><a href="/pj_thedealhunter">Re-design Craiglist App</a></h3>
+       <h3><a href="/pj_craiglist">Re-design Craiglist App</a></h3>
        <p>November,2021 </p>
        <p>NewYork,NY</p>
        </div>
